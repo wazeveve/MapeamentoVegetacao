@@ -1,2 +1,30 @@
-# MapeamentoVegetacao
-Projeto desenvolvido em um notebook Python no Google Colab, com o objetivo de aplicar Redes Neurais para identificar áreas com presença de ervas daninhas invasoras na vegetação, e também o solo ao redor do plantio. O modelo utiliza dados espectrais extraídos de imagens para gerar mapas preditivos capazes de auxiliar no monitoramento agrícola.
+# 🌱 Mapeamento de Vegetação, Ervas Invasoras e Solo
+
+## Utilizando OpenCV e Redes Neurais
+
+Este projeto foi desenvolvido no Google Colab e utiliza processamento de imagens e redes neurais para identificar regiões de vegetação saudável, ervas daninhas invasoras e solo exposto a partir de imagens espectrais.
+
+Link para o Colab: https://colab.research.google.com/drive/1MehLj8HyTOiAAFow_jPEKq0jJJt6_gMy#scrollTo=V9d6Hv1GvT-E
+
+Desenvolvido no Google Colab com bibliotecas como:
+* cv2
+* numpy
+* rasterio
+* pandas
+* geopandas
+* matplotlib
+* sklearn
+* tensorflow
+---
+
+📌 Comparação:
+
+![Comparacao](./content/comparacao.png)
+
+🖼️ Foto Inicial:
+
+![FotoInicial](./content/fotoinicial.png)
+
+🖼️ Resultado Final:
+
+![Mapa](./content/mapa.png)
